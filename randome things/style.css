@@ -1,0 +1,85 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 4px;
+    background-color: aliceblue;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px  black ;
+
+}
+span{
+    display : block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+
+}
+p {
+    font-size: 20px; /* Increase font size */
+    color: rgb(255, 98, 0); /* Orange color */
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.6; /* Adjust line height for better readability */
+    margin: 30px 0;
+    padding: 20px; /* Add padding for spacing */
+    border: 2px solid rgb(255, 98, 0); /* Add border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(255, 98, 0, 0.1); /* Light orange background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+p:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    background-color: rgba(255, 98, 0, 0.2); /* Darken background on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    p {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+
+}
+
+button {
+    display: block;
+    background-color: blueviolet;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+button:hover {
+    background-color: darkviolet; /* Change background color on hover */
+}
+
+
+
+}
